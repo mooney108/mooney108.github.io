@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shark World</title>
+    <meta
+      name="description"
+      content="Explore the fascinating world of sharks, from great whites to whale sharks and the important role they play in the ocean."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container">
+        <div class="brand">
+          <span class="brand-mark">🦈</span>
+          <span>Shark World</span>
+        </div>
+        <div class="nav-links">
+          <a href="#species">Species</a>
+          <a href="#facts">Facts</a>
+          <a href="#ocean">Ocean Role</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Ocean guardians</p>
+            <h1>Sharks are ancient, powerful, and essential.</h1>
+            <p class="hero-text">
+              These remarkable predators have roamed the seas for more than 400 million
+              years, helping keep marine ecosystems balanced and thriving.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#species">Meet the species</a>
+              <a class="btn btn-secondary" href="#facts">Learn more</a>
+            </div>
+          </div>
+          <div class="hero-stat reveal">
+            <div class="stat-card">
+              <span class="stat-number">400M+</span>
+              <span class="stat-label">Years in the ocean</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro" id="species">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Diverse species</p>
+            <h2>Not all sharks are the same</h2>
+          </div>
+
+          <div class="species-grid">
+            <article class="species-card reveal">
+              <div class="species-image great-white"></div>
+              <div class="species-body">
+                <h3>Great White</h3>
+                <p>
+                  A powerful apex predator known for its speed, stealth, and impressive
+                  sensory abilities.
+                </p>
+              </div>
+            </article>
+
+            <article class="species-card reveal">
+              <div class="species-image hammerhead"></div>
+              <div class="species-body">
+                <h3>Hammerhead</h3>
+                <p>
+                  Recognizable by its wide head, this shark uses enhanced vision and
+                  hunting precision.
+                </p>
+              </div>
+            </article>
+
+            <article class="species-card reveal">
+              <div class="species-image whale-shark"></div>
+              <div class="species-body">
+                <h3>Whale Shark</h3>
+                <p>
+                  The largest fish on Earth, calmly gliding through warm waters while 
+                  filtering plankton.
+                </p>
+              </div>
+            </article>
+
+            <article class="species-card reveal">
+              <div class="species-image tiger"></div>
+              <div class="species-body">
+                <h3>Tiger Shark</h3>
+                <p>
+                  A bold and curious shark with a broad diet and a reputation for being a
+                  highly adaptive hunter.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section facts" id="facts">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Fast facts</p>
+            <h2>What makes sharks extraordinary</h2>
+          </div>
+
+          <div class="facts-grid">
+            <div class="fact-item reveal">
+              <span class="fact-icon">🧠</span>
+              <h3>Extraordinary senses</h3>
+              <p>
+                Sharks can detect electrical fields, vibrations, and even faint traces of
+                blood in the water.
+              </p>
+            </div>
+
+            <div class="fact-item reveal">
+              <span class="fact-icon">🌊</span>
+              <h3>Ocean balance</h3>
+              <p>
+                By keeping prey populations in check, sharks help maintain healthy marine
+                ecosystems.
+              </p>
+            </div>
+
+            <div class="fact-item reveal">
+              <span class="fact-icon">🔄</span>
+              <h3>Ancient lineage</h3>
+              <p>
+                Sharks have evolved over millions of years, surviving mass extinctions and
+                adapting to changing seas.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section ocean" id="ocean">
+        <div class="container ocean-layout">
+          <div class="ocean-image reveal"></div>
+          <div class="ocean-copy reveal">
+            <p class="eyebrow">Why they matter</p>
+            <h2>Sharks are a vital part of the ocean food web</h2>
+            <p>
+              When shark populations decline, the balance of marine life can shift. From
+              reef fish to oceanic predators, sharks influence who eats what and help protect
+              biodiversity in the sea.
+            </p>
+            <ul class="check-list">
+              <li>Support healthy reef ecosystems</li>
+              <li>Keep prey species in balance</li>
+              <li>Help protect coral and coastal habitats</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <div class="container footer-content">
+        <div>
+          <p class="brand footer-brand"><span class="brand-mark">🦈</span> Shark World</p>
+        </div>
+        <p>Made for ocean lovers everywhere.</p>
+        <p>© <span id="year"></span> Shark World</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
